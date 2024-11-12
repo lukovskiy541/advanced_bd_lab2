@@ -10,7 +10,7 @@ class DatabaseTester:
         self.pg_conn = psycopg2.connect(
               dbname="postgres",
                 user="postgres",
-                password="3494",
+                password="",
                 host="localhost",
                 port="5432"
         )
